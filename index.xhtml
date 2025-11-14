@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Switch Case</title>
+<script type="text/javascript">
+function checkDay() {
+    var code = prompt("Masukkan kode (C/S/W/O): ");
+
+    switch (code) {
+        case "C": alert("Coffee"); break;
+        case "S": alert("Soft Drink"); break;
+        case "W": alert("Water"); break;
+        case "O": alert("Other"); break;
+        default: alert("Kode tidak valid");
+    }
+}
+</script>
+</head>
+<body onload="checkDay()"></body>
+</html>
